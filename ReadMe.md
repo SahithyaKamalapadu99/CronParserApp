@@ -79,18 +79,18 @@ java -jar target/CronParser-1.0-SNAPSHOT.jar
 ## Compile Using Java Command
 If maven is not available, compile the files manually using the javac command.
 
-First, compile the .java files:
+First, 
 
 Create the target/classes directory in root directory if it doesn't exist:
 ```
 mkdir -p target/classes
 ```
+Compile the .java files:
 ```
 javac -d target/classes src/main/java/org/example/*.java src/main/java/org/example/model/*.java src/main/java/org/example/service/*.java
 ```
 
 Then  run the application as mentioned earlier using the -cp (classpath) option:
-
 ```
 java -cp target/classes org.example.CronParseApplication 
 <enter the expression>   
