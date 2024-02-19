@@ -47,7 +47,7 @@ The CronParseService uses regular expressions and logic to handle increments, ra
 
 ## Compile and Package Using Maven
 
-To compile and package the application using Maven, navigate to the project directory and run:
+To compile and package the application using Maven, navigate to the project root directory and run:
 
 ```
 mvn clean compile
