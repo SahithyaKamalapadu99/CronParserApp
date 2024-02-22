@@ -21,6 +21,8 @@ month         1 2 3 4 5 6 7 8 9 10 11 12
 day of week   1 2 3 4 5
 command       /usr/bin/script
 ```
+Application handles only the standard cron syntax format, as defined here https://www.ibm.com/docs/en/db2oc?topic=task-unix-cron-format
+- https://crontab.guru/ to validate the cron expression.
 
 ## Cron Expression Format
 
