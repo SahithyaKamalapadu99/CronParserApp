@@ -32,7 +32,7 @@ The application supports parsing cron schedule expressions with the following fi
 - Hour - 0-23 or */increment or "," value list separator or - range or /	step values
 - Day of month - 1-31 or */increment or "," value list separator or - range or /	step values
 - Month - 1-12 or */increment or "," value list separator or - range or /	step values
-- Day of week - 0-6 or */increment or "," value list separator or - range or /	step values
+- Day of week - 1-7 or */increment or "," value list separator or - range or /	step values
 - Command - script/command to run
 
 ## Implementation
